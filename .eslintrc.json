@@ -1,11 +1,18 @@
 {
-
   "extends": ["next/core-web-vitals", "next/typescript"],
-  
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+
   "rules": {
-  
-  "react/no-unescaped-entities": "off"
-  
+    "react/no-unescaped-entities": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"]
   }
-  
-  }
+}
