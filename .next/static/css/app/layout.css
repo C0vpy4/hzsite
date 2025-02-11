@@ -550,6 +550,9 @@ video {
 .animate-marquee {
   animation: marquee 5s linear infinite;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 .grid-rows-2 {
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
@@ -565,9 +568,24 @@ video {
 .justify-center {
   justify-content: center;
 }
+.justify-between {
+  justify-content: space-between;
+}
 .justify-around {
   justify-content: space-around;
 }
+<<<<<<< Updated upstream
+=======
+.gap-12 {
+  gap: 3rem;
+}
+.gap-20 {
+  gap: 5rem;
+}
+.gap-56 {
+  gap: 14rem;
+}
+>>>>>>> Stashed changes
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -577,12 +595,73 @@ video {
 .text-nowrap {
   text-wrap: nowrap;
 }
+<<<<<<< Updated upstream
+=======
+.border-none {
+  border-style: none;
+}
+.bg-\[\#111111\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 17 17 / var(--tw-bg-opacity, 1));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+.bg-opacity-\[0\.1\] {
+  --tw-bg-opacity: 0.1;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.pl-2\.5 {
+  padding-left: 0.625rem;
+}
+>>>>>>> Stashed changes
 .text-center {
   text-align: center;
 }
 .font-floripa {
   font-family: Floripa;
 }
+<<<<<<< Updated upstream
+=======
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+>>>>>>> Stashed changes
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -595,6 +674,39 @@ video {
 .capitalize {
   text-transform: capitalize;
 }
+<<<<<<< Updated upstream
+=======
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.text-opacity-45 {
+  --tw-text-opacity: 0.45;
+}
+.text-opacity-85 {
+  --tw-text-opacity: 0.85;
+}
+.text-opacity-\[0\.85\] {
+  --tw-text-opacity: 0.85;
+}
+.text-opacity-\[45\] {
+  --tw-text-opacity: 45;
+}
+.text-opacity-\[65px\] {
+  --tw-text-opacity: 65px;
+}
+.opacity-45 {
+  opacity: 0.45;
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+>>>>>>> Stashed changes
 
 :root {
   --background: #ffffff;
@@ -614,6 +726,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< Updated upstream
+=======
+.hover\:text-opacity-85:hover {
+  --tw-text-opacity: 0.85;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+>>>>>>> Stashed changes
 @media (min-width: 768px) {
 
   .md\:mb-\[60px\] {

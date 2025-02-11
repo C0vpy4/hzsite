@@ -1,3 +1,7 @@
 {
+<<<<<<< Updated upstream
   "/page": "app/page.js"
+=======
+  "/(page)/main/page": "app/(page)/main/page.js"
+>>>>>>> Stashed changes
 }
