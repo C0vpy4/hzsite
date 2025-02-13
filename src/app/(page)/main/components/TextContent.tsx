@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function TextContent() {
   return (
-    <div>
+    <div className="px-20 flex flex-col gap-10">
       <h1>Повышение цен?</h1>
       <p>
         Наши аналитики, после кропотливой работы сделали вывод - то, что раньше

@@ -10,8 +10,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
-<<<<<<< Updated upstream
-=======
     ],
     "/(page)/layout": [
       "static/chunks/webpack.js",
@@ -22,7 +20,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(page)/main/page.js"
->>>>>>> Stashed changes
     ]
   }
 }
